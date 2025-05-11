@@ -52,3 +52,8 @@ const animals = [
     fotka1.src=images.image
     div.append(fotka1)
   }
+  for(jmeno of animals){
+    const names=document.createElement("h3")
+    names.textContent=jmeno.name
+    div.append(names)
+  }
